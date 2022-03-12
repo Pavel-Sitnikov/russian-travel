@@ -7,3 +7,16 @@
   text-align: center;
   margin: 0 auto 64px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}
